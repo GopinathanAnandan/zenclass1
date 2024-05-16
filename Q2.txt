@@ -1,0 +1,43 @@
+objects and its internal representation in Javascript
+
+    Objects are important data types in javascript. Objects are different than primitive datatypes 
+    (i.e. number, string, boolean, etc.). Primitive data types contain one value but Objects can 
+    hold many values in form of Key: value pair. These keys can be variables or functions and are
+    called properties. Various methods in objects are,
+        1. Constructor
+        2. Static methods
+        3. Instance methods
+        4. Instance property
+
+    Constructor:
+
+        object()
+            turns the input into object.
+    
+    Static methods:
+
+        Static methods must not rely on data from a specific object. Some of the static methods are,
+          i.Object.assign()
+                Copies the values of all enumerable own properties from one or more source objects 
+                to a target object.
+
+         ii.Object.create()
+                Creates a new object with the specified prototype object and properties. 
+
+    Instance methods:
+
+        Instance methods rely on each object's specific data and some of the instamce methods are,
+           i.Object.prototype.toString()
+                Returns a string representation of the object.
+
+          ii.Object.prototype.valueOf()
+                Returns the primitive value of the specified object.
+    
+    Instance property:
+
+        Object.prototype.constructor
+            The constructor function that created the instance object. For plain Object instances, 
+            the initial value is the Object constructor. Instances of other constructors each inherit 
+            the constructor property from their respective Constructor.prototype object.
+
+
