@@ -1,4 +1,4 @@
-objects and its internal representation in Javascript
+objects and its internal representation in Javascript:
 
     Objects are important data types in javascript. Objects are different than primitive datatypes 
     (i.e. number, string, boolean, etc.). Primitive data types contain one value but Objects can 
