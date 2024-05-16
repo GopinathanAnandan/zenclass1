@@ -12,7 +12,7 @@
                                                 |
     2.  It uses one TCP connection for every    | 2. It allows multiplexing that is one TCP connection
         single request. If that request is slow |    is used for multiple requests. So it rectify HOL
-        it blocks all other requests on the     |    blocking
+        it blocks all other requests on the     |    blocking.
         same connection. This is called head of |
         line blocking (HOL blocking).           |
                                                 |
